@@ -1,0 +1,20 @@
+create database laravel;
+CREATE USER 'laravel'@'localhost' IDENTIFIED BY 'laravel';
+GRANT ALL ON laravel.* TO 'laravel'@'localhost';
+
+create database symfony;
+CREATE USER 'symfony'@'localhost' IDENTIFIED BY 'symfony';
+GRANT ALL ON symfony.* TO 'symfony'@'localhost';
+
+create database codeigniter;
+CREATE USER 'codeigniter'@'localhost' IDENTIFIED BY 'codeigniter';
+GRANT ALL ON codeigniter.* TO 'codeigniter'@'localhost';
+
+create database cakephp;
+CREATE USER 'cakephp'@'localhost' IDENTIFIED BY 'cakephp';
+GRANT ALL ON cakephp.* TO 'cakephp'@'localhost';
+
+create database yii2;
+CREATE USER 'yii2'@'localhost' IDENTIFIED BY 'yii2';
+GRANT ALL ON yii2.* TO 'yii2'@'localhost';
+

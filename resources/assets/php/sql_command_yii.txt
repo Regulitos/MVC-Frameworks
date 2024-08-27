@@ -1,0 +1,6 @@
+ insert into client values 
+ (null, 'Wes', 'Anderson', 'wes@mail.com'), 
+ (null, 'Danny', 'Boyle', 'danny@mail.com'),
+ (null, 'Pak', 'Chan-uk', 'pak@mail.com'),
+ (null, 'Darren', 'Aronofsky', 'darren@mail.com'),
+ (null, 'Alexander', 'Payne', 'alexander@mail.com');
