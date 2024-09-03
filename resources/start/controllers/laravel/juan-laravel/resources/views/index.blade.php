@@ -32,19 +32,13 @@
             <th>Last Name</th>
             <th>Email</th>
             <th width="200">Action</th>
-          </tr>
-          <tr>
-            <td>Vincent</td>
-            <td>Vega</td>
-            <td>vincent@domain.com</td>
-            <td><a class="button hollow" href="./details.html">VIEW DETAILS</a></td>
-          </tr>
+          </tr>          
           @foreach ($clientes as $clientes)
             <tr>
                 <td>{{ $clientes['name'] }}</td>
                 <td>{{ $clientes['last_name'] }}</td>
                 <td>{{ $clientes['email'] }}</td>
-                <td><a class="button hollow" href="./clientes/{id}">VIEW DETAILS</a></td>
+                <td><a class="button hollow" href="./clientes/{{ $clientes['id'] }}">VIEW DETAILS</a></td>
             </tr>
           @endforeach
         </table>

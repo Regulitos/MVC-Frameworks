@@ -6,6 +6,7 @@ use App\Http\Controllers\ControladorCliente;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/user',[ControladorCliente::class,'index']);
 
 Route::get('/clientes', [ControladorCliente::class, 'control']);
 

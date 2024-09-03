@@ -28,17 +28,17 @@
       <div class="medium-12 large-12 columns">
         <h4>Details</h4>
         <form method="POST">
-          <div class="medium-4  columns">
+          <div class="medium-4  columns">          
             <label>Name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" placeholder="{{ $cliente->name }}">
           </div>
           <div class="medium-4  columns">
             <label>Last Name</label>
-            <input type="text" name="last_name">
+            <input type="text" name="last_name" placeholder="{{ $cliente->last_name }}">
           </div>
           <div class="medium-4  columns">
             <label>Email</label>
-            <input type="text" name="email">
+            <input type="text" name="email" placeholder="{{ $cliente->email }}">
           </div>
           <div class="medium-12  columns">
             <input value="SEND" class="button success hollow" type="submit">
